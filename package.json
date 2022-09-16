@@ -13,6 +13,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.78",
 		"@sveltejs/adapter-node": "^1.0.0-next.91",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
@@ -35,8 +36,6 @@
 	"type": "module",
 	"dependencies": {
 		"graphql": "^16.6.0",
-		"graphql-request": "^5.0.0",
-		"socket.io": "^4.5.2",
-		"socket.io-client": "^4.5.2"
+		"graphql-request": "^5.0.0"
 	}
 }
